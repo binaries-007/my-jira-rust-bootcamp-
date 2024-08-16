@@ -20,7 +20,6 @@ fn main() -> Result<()> {
         let page = navigator.get_current_page();
 
         if let None = page {
-            print!("Hello");
             std::process::exit(-1);
         }
 
